@@ -1,42 +1,20 @@
-/* FONT */
-@font-face {
-	font-family: pewdiepieFont;
-	src: url(font/FEASFBI_.ttf);
-}
-@font-face {
-	font-family: pewdiepieFontTekst;
-	src: url(font/Cartoony.ttf);
-}
-/* /FONT */
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
 
-/* NAVBAR */
-.nav {
-	
-}
-.navbar-logotext {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	text-align: center;
-	margin:0;
-	font-family: pewdiepieFont;
-	font-size: 40px;
-	color: rgb(10,180,227);
-}
-/* /NAVBAR */
-
-/* CONTAINER */
 body {
-	background-image: url("../img/pewdiepie-background.jpg");
-}
-.container {
-	background-color: white;
-	height: 1000px;
-}
-/* /CONTAINER */
-
-/* FOOTER */
-footer.footer {
+	
 
 }
-/* /FOOTER */
+
+.desc {
+
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	width: 200px;
+		
+}

@@ -1,35 +1,38 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-03 13:07:26
+<?php /* Smarty version Smarty-3.1.18, created on 2016-09-28 12:40:36
          compiled from "views\head.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2663157f247cb46c773-59716220%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1711657e4f5509b6103-51375259%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd01944f6b4061c71cbb91782df46ef3603b7b840' => 
     array (
       0 => 'views\\head.tpl',
-      1 => 1475500041,
+      1 => 1474623310,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2663157f247cb46c773-59716220',
+  'nocache_hash' => '1711657e4f5509b6103-51375259',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_57f247cb49d115_28843599',
+  'unifunc' => 'content_57e4f5509f4912_67422274',
+  'variables' => 
+  array (
+    'title' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57f247cb49d115_28843599')) {function content_57f247cb49d115_28843599($_smarty_tpl) {?><!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
+<?php if ($_valid && !is_callable('content_57e4f5509f4912_67422274')) {function content_57e4f5509f4912_67422274($_smarty_tpl) {?><!DOCTYPE html>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="shortcut icon" type="image/png" href="img/pewdiepie-logo.png"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/main.css">
 
     </head>
     <body>

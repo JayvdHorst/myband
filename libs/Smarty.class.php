@@ -361,14 +361,14 @@ class Smarty extends Smarty_Internal_TemplateBase
      *
      * @var integer
      */
-    public $php_handling = self::PHP_PASSTHRU;
+    public $php_handling = true;
     /**
      * controls if the php template file resource is allowed
      *
      * @var bool
      */
     public $allow_php_templates = false;
-    /**
+    /*
      * Should compiled-templates be prevented from being called directly?
      *
      * {@internal

@@ -1,9 +1,7 @@
-<!-- ========== Footer ========== -->
-<footer class="footer">
+<footer>
 
-
+    <p style="text-align: center;">{$footertekst}</p>
 
 </footer>
-<!-- ========== /Footer ========== -->
 </body>
 </html>
