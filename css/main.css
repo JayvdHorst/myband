@@ -1,20 +1,36 @@
-/*
- * Dit is de custom style sheet van jouw website
- *
- */
+/* FONT */
+@font-face {
+	font-family: pewdiepieFont;
+	src: url(font/FEASFBI_.ttf);
+}
+@font-face {
+	font-family: pewdiepieFontTekst;
+	src: url(font/Cartoony.ttf);
+}
+/* /FONT */
 
+/* NAVBAR */
+.nav {
+	text-align: center;
+	font-family: pewdiepieFontTekst;
+	font-size: 12px;
+}
+.nav a {
+	color: rgb(10,180,227);
+}
+/* /NAVBAR */
+
+/* CONTAINER */
 body {
-	
+	background-image: url("../img/pewdiepie-background.jpg");
+}
+.container {
+	background-color: white;
+}
+/* /CONTAINER */
+
+/* FOOTER */
+footer.footer {
 
 }
-
-.desc {
-
-	background-color: #fff;
-	border: 1px solid #000;
-	position: absolute;
-	margin-left: 100px;
-	margin-top: -20px;
-	width: 200px;
-		
-}
+/*

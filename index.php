@@ -11,11 +11,7 @@ include 'includes/database.php';
 
 include 'includes/functs.php';
 
-// Assign value of page title to the smarty variable 'title', usually the value comes from a database
-$templateParser->assign('title', 'Me First And The Gimme Gimmes');
-$templateParser->assign('footertekst', 'This FOOTER is to easy');
-
-// Display template: output html
+// Display template
 $templateParser->display('head.tpl');
 $templateParser->display('header.tpl');
 
@@ -24,8 +20,11 @@ $action=isset($_GET['action'])?$_GET['action']:'home';
 switch($action) {
     case 'home':
 
+        $page_nr = isset($_GET['page_nr'])?$_GET['page_nr']:1;
         include('model/select_newsarticles.php');
+        include('model/get_nr_newsacrticles.php');
         $templateParser->assign('result', $result);
+        $templateParser->assign('total_number_articles', $total_number_articles);
         $templateParser->display('newsarticles.tpl');
         break;
 
