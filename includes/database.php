@@ -10,6 +10,8 @@ if ($mysqli->connect_errno) {
     (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
+
+
 //echo $mysqli->host_info . "<hr>";
 
 
